@@ -19,6 +19,9 @@ static struct {
     {.ssid = "DAP", .password = "12345678"},
     // Add your WAP like this:
     // {.ssid = "your ssid", .password = "your password"},
+    {.ssid = "AndroidAP_3923", .password = "aroma0225"},
+    {.ssid = "Freak", .password = "aroma0225"},
+    {.ssid = "Staric", .password = "staric2020"},
 };
 
 #define WIFI_LIST_SIZE (sizeof(wifi_list) / sizeof(wifi_list[0]))
@@ -29,7 +32,7 @@ static struct {
 #define MDNS_INSTANCE "DAP mDNS"
 //
 
-#define USE_STATIC_IP 1
+#define USE_STATIC_IP 0
 // If you don't want to specify the ip configuration, then ignore the following items.
 #define DAP_IP_ADDRESS 192, 168, 137, 123
 #define DAP_IP_GATEWAY 192, 168, 137, 1
